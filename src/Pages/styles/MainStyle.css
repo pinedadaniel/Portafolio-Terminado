@@ -1,0 +1,239 @@
+body{
+    zoom: 100%;
+}
+.refreshVideo{
+    background-color: black;
+  
+}
+
+@media screen and (max-width: 991px) {
+.contDivMain{
+display:none;
+}
+}
+.contDiseñoWeb{
+display: grid;
+height: 98vh;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+.contDivMain{
+grid-row: 12/13;
+}
+.contTextMain{
+  
+    grid-row: 12/13;
+    grid-column:2/5;
+}
+@media screen and (max-width: 991px) {
+    .contTextMain{
+        grid-row: 2/6;
+        grid-column:1/2;
+        width: 100%;
+        height: 100%;
+    }
+    }
+.contWebDesign{
+    margin-bottom: 2vh;
+}
+.contShoppingOnline{
+    margin-bottom: 2vh;
+}
+.contResponsiveDesign{
+    margin-bottom: 2vh;
+}
+.contSolutionWeb{
+    margin-bottom: 2vh;
+}
+.contAppReact{
+    margin-bottom: 2.5vh;
+}
+.btn-webDesign{
+    width: 33vw;
+    border-bottom-right-radius: 20px;
+    background: rgba(0,0,0,0.7);   
+}
+.btn-webDesign:hover{
+    background: rgba(250,250,250,1)
+}
+.btn-ShoppingOnline{
+    width: 33vw;
+    border-bottom-right-radius: 20px;
+    background: rgba(0,0,0,0.7)
+}
+.btn-ShoppingOnline:hover{
+    background: rgba(250,250,250,1)
+
+}
+.btn-ResponsiveDesign{
+    width: 33vw;
+    border-bottom-right-radius: 20px;
+    background: rgba(0,0,0,0.7)
+}
+.btn-ResponsiveDesign:hover{
+    background: rgba(250,250,250,1)
+}
+.btn-solutionWeb{
+    width: 33vw;
+    border-bottom-right-radius: 20px;
+    background: rgba(0,0,0,0.7)
+}
+.btn-solutionWeb:hover{
+    background: rgba(250,250,250,1)
+}
+.btn-appReact{
+    width: 33vw;
+    border-bottom-right-radius: 20px;
+    background: rgba(0,0,0,0.7)
+}
+.btn-appReact:hover{
+    background: rgba(250,250,250,1);
+}
+.btn-advertising{
+    width: 33vw;
+    border-bottom-right-radius: 20px;
+    background: rgba(0,0,0,0.7)
+}
+.btn-advertising:hover{
+    background: rgba(250,250,250,1);
+}
+
+.textButtomHome{ 
+       font-family: 'Arial Narrow Bold';
+       font-size: 4vh;
+       margin-left: 2vh;
+   }
+.textButtomHome:hover{ 
+       color:orange !important ;
+}
+.imgWebDesign{
+    width: 10%;
+}
+.nameHome{
+    font-family: "sans-serif";
+    font-size: 52px; 
+    margin-left: 16vh;
+    margin-top: 10vh;
+}
+hr{
+    background: white;
+    width:370px;
+    margin-left: 8vw;
+}
+.rolHome{
+    font: 27px "Courier new";
+    font-weight: 600;
+    margin-left: 23vh;
+}
+.btn-homeMesagge{
+   background:#ffc107;
+  margin-left: 10px;
+  color:black;
+}
+.btn-homeContact{
+    margin-left: 25vh;
+}
+.btn-homeContact:hover{
+    color:black;
+}
+.btn-homeMesagge:hover{
+   border:solid 1px yellow;
+  background: transparent;
+  color: #ffc107;
+}
+@media screen and (max-width: 991px) {
+.contTextMain{
+    margin-top: 20vh;
+}
+.nameHome{
+    font-family: "sans-serif";
+    font-size: 52px; 
+    margin-left: 10vw;    
+}
+.rolHome{
+    font: 27px "Courier new";
+    font-weight: 600;
+    margin-left: 14vw;  
+}
+hr{
+    margin-left: 13vw;  
+}
+.btn-homeMesagge{
+     
+    margin-left: 10px;
+}
+.btn-homeContact{
+    margin-left: 17vw;
+    }
+}
+@media screen and (max-width: 514px) {
+.contTextMain{
+    margin-top: 20vh;
+}
+.nameHome{       
+    font-size: 10vw; 
+    margin-left: 0;     
+}
+.rolHome{
+    font-size: 6vw; 
+    font-weight: 600;
+    margin-left: 0;
+}
+hr{
+    margin-left: 0;  
+}
+.btn-homeMesagge{         
+     margin-left: 10px;
+}
+.btn-homeContact{
+    margin-left: 0;
+    }
+}
+@media screen and (max-width: 390px) {
+.contTextMain{
+    margin-top: 20vh;
+}
+.nameHome{       
+    font-size: 10vw;     
+}
+.rolHome{
+    font-size: 6vw; 
+    font-weight: 600;
+    margin-left: 0;
+}
+hr{
+  width: 98%;
+}
+.btn-homeMesagge{         
+    margin-left: 10px;
+}
+.btn-homeContact{
+    margin-left: 0;
+    }
+}
+.presentHome{
+    margin-top: 8vh;
+    display: none;
+   
+  
+    
+}
+.textPresentHome{
+    text-align: center;
+  font: 4vh 'News Gothic MT';
+  color:white;
+  display: none;
+    
+}
+@media screen and (max-width: 991px) {
+    .presentHome{
+        display: block;  
+    }
+    .textPresentHome{
+      display: block;
+    }
+}
+    
+.present{
+    color: #ffc107;
+}
