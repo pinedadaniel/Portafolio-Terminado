@@ -26,7 +26,7 @@ class Main extends React.Component {
                                     <button type="button" 
                                         className="btn btn-lg btn btn-outline-warning btn-webDesign text-left">
                                         <span><img src={iconPaint} className='imgWebDesign' /> </span>
-                                        <span className='textButtomHome text-primary'> <Link to='/Services'>  Diseño Web  </Link> </span> </button>
+                                        <span className='textButtomHome text-primary'> <Link to='/Services'> ok Diseño Web  </Link> </span> </button>
                                 </div>
                                 <div className='contShoppingOnline'>
                                     <button type="button"
