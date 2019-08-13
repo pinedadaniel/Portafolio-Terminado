@@ -32,31 +32,31 @@ class Main extends React.Component {
                                     <button type="button"
                                         className="btn btn-lg btn btn-outline-warning btn-ShoppingOnline text-left">
                                         <span><img src={iconShoppingCart} width='40' /> </span>
-                                        <span className='textButtomHome text-primary'> Tiendas Online </span> </button>
+                                        <span className='textButtomHome text-primary'><Link to='/Services'> Tiendas Online  </Link> </span> </button>
                                 </div>
                                 <div className='contResponsiveDesign'>
                                     <button type="button"
                                         className="btn btn-lg btn btn-outline-warning btn-ResponsiveDesign text-left">
                                         <span><img src={iconPhone} width='38' /> </span>
-                                        <span className='textButtomHome text-primary'> Diseño Responsivo </span> </button>
+                                        <span className='textButtomHome text-primary'><Link to='/Services'> Diseño Responsivo </Link> </span> </button>
                                 </div>
                                 <div className='contSolutionWeb'>
                                     <button type="button"
                                         className="btn btn-lg btn btn-outline-warning btn-solutionWeb text-left">
                                         <span><img src={iconJs} width='34' /> </span>
-                                        <span className='textButtomHome text-primary'> Soluciones Web </span> </button>
+                                        <span className='textButtomHome text-primary'> <Link to='/Services'> Soluciones Web  </Link> </span> </button>
                                 </div>
                                 <div className='contAppReact'>
                                     <button type="button"
                                         className="btn btn-lg btn btn-outline-warning btn-appReact text-left">
                                         <span><img src={iconReact} width='38' /> </span>
-                                        <span className='textButtomHome text-primary'> Aplicaciones Web</span> </button>
+                                        <span className='textButtomHome text-primary'> <Link to='/Services'> Aplicaciones Web  </Link></span> </button>
                                 </div>
                                 <div className='contAdvertising'>
                                     <button type="button"
                                         className="btn btn-lg btn btn-outline-warning btn-advertising text-left">
                                         <span><img src={iconpubli} width='38' /> </span>
-                                        <span className='textButtomHome text-primary'> Publicidad y Redes Sociales </span> </button>
+                                        <span className='textButtomHome text-primary'> <Link to='/Services'> Publicidad y Redes Sociales </Link> </span> </button>
                                 </div>
 
 
