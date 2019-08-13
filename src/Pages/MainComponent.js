@@ -23,10 +23,10 @@ class Main extends React.Component {
                         <div className='col-12 contDiseñoWeb'>
                             <div className='contDivMain '>
                                 <div className='contWebDesign'>
-                                    <button type="button"
+                                    <button type="button" 
                                         className="btn btn-lg btn btn-outline-warning btn-webDesign text-left">
                                         <span><img src={iconPaint} className='imgWebDesign' /> </span>
-                                        <span className='textButtomHome text-primary'> Diseño Web </span> </button>
+                                        <span className='textButtomHome text-primary'> <Link to='/Services'>  Diseño Web  </Link> </span> </button>
                                 </div>
                                 <div className='contShoppingOnline'>
                                     <button type="button"
